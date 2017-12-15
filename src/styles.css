@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+html
+{
+	background: url('bg.jpg') no-repeat;
+	background-size: cover;
+}
+body
+{
+	background-color: transparent !important;
+}
+.principal_tab ul
+{
+}
+.principal_tab ul li a, .principal_tab ul li a.active, .principal_tab ul li a:hover
+{
+	color: white;
+	border: none;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;	
+	background-color: transparent !important;
+}
+.principal_tab ul li a.active, .principal_tab ul li a:hover
+{
+	color: white !important;
+	background-color: rgba(255,255,255,0.4) !important;
+}
