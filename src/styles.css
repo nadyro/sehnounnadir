@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 html
 {
-	background: url('bg.jpg') no-repeat;
-	background-size: cover;
+  background-color: #f1f1f1;
 }
 body
 {
 	background-color: transparent !important;
+}
+h1
+{
+	color: white !important;
 }
 .principal_tab ul
 {
@@ -16,11 +19,62 @@ body
 	color: white;
 	border: none;
 	border-top-left-radius: 0;
-	border-top-right-radius: 0;	
+	border-top-right-radius: 0;
 	background-color: transparent !important;
 }
 .principal_tab ul li a.active, .principal_tab ul li a:hover
 {
 	color: white !important;
 	background-color: rgba(255,255,255,0.4) !important;
+}
+.card
+{
+	background-color: transparent !important;
+  border: none !important;
+}
+.card-header
+{
+	background-color: transparent !important;
+  border: none !important;
+}
+.card-header a
+{
+	color: black;
+}
+.card-header a:hover, .card-header a:focus
+{
+	color: black;
+}
+.profile
+{
+	text-align: center;
+}
+.contact
+{
+	position: absolute;
+	right: 0;
+}
+.bg-js{
+  background-color: #E4A228 !important;
+  height: 100% !important;
+}
+.bg-ng{
+  background-color: #C3002F !important;
+  height: 100% !important;
+}
+.bg-node{
+  background-color: #83CD29 !important;
+  height: 100% !important;
+}
+.bg-sql{
+  background-color: #0081b5 !important;
+  height: 100% !important;
+}
+.bg-php{
+  background-color: #767BB3 !important;
+  height: 100% !important;
+}
+.bg-c{
+  background-color: #f4d742 !important;
+  height: 100% !important;
 }

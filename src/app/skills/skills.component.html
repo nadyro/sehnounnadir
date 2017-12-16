@@ -1,7 +1,7 @@
 <div>
-<div class='skills'>
-<div class='skill' *ngFor='let skill of skills'>
-<p>{{skill.name}}</p>
-</div>
-</div>
+  <div class='skills'>
+    <div class='skill' *ngFor='let skill of skills'>
+      <p><ngb-progressbar value="{{skill.value}}" type="{{skill.color}}" height="20px" [striped]="true" [animated]="true">{{skill.name}}</ngb-progressbar></p>
+    </div>
+  </div>
 </div>

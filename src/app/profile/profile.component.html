@@ -1,31 +1,12 @@
 <div>
 	<div *ngFor='let profile of profiles'>
-		<h4>{{profile.name}} {{profile.surname}}</h4>
-		<h5>{{profile.age}} ans</h5>
-		<h5>{{profile.city}}, {{profile.country}}</h5>
-		<ngb-accordion #acc="ngbAccordion">
-			<ngb-panel id="toggle-1" title="Dear HR people, click here">
-				<ng-template ngbPanelContent>
-					<p>
-						Salutations, honorable visiteur.
-						Développeur depuis maintenant un an et demi, mon domaine d'application s'étend du PHP au Javascript (natif, jQuery, NodeJS, AngularJS), en passant par le HTML5 et le CSS3, bien évidemment.
-						Ayant une légère préférence pour le développement backend, je n'en reste pas moins intéressé par le frontend.
-						Je suis actuellement à l'école 42, et grâce au système d'apprentissage dont je bénéficie, je programme en C et me forme à apprendre. 
-						Ainsi, je suis ouvert à toutes autres propositions que le développement web.
-						Grand amateur des mots et de poésie, je suis un fervent lecteur, passionné par l'écriture.
-						Je me ferais donc un plaisir de partager avec vous, si le cœur vous en dit, quelques lignes de mes errances spirituelles.
-						Bien à vous.
-					</p>
-					<p>
-						Greetings,
-						Since almost two years, I have been coding relentlessly. I made that my main occupation. Now, I can
-						work with C, Node & Angular JS, Php, native Javascript, jQuery and of course HTML & CSS. 
-						Though I prefer backend tasks, I am fully commited when it comes to fullstack development.
-						Today, I study programmation at 42. Thanks to that absolutely performing school, I can now learn any new technology in no time.
-						Therefore, being able to code in any environment, to work with any language, I am open for any of your propositions.
-					</p>
-				</ng-template>
-			</ngb-panel>
-		</ngb-accordion>
+		<div class='profile'>
+			<img src='/assets/images/nsehnoun.jpg' class='img_me'>
+			<div class='container details'>
+				<h4>{{profile.name}} {{profile.surname}}</h4>
+				<h5>{{profile.age}} ans</h5>
+				<h5>{{profile.city}}, {{profile.country}}</h5>
+			</div>
+		</div>
 	</div>
 </div>

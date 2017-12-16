@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { DiplomasComponent } from './diplomas/diplomas.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ContactComponent } from './contact/contact.component';
+import { ExperiencesComponent } from './experiences/experiences.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { SkillsComponent } from './skills/skills.component';
     AppComponent,
     ProfileComponent,
     DiplomasComponent,
-    SkillsComponent
+    SkillsComponent,
+    ContactComponent,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule, NgbModule.forRoot()
