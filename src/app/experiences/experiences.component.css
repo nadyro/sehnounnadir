@@ -7,3 +7,13 @@
   text-align: center;
   margin-top: 10px;
 }
+.container_carousel
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.container_carousel h2
+{
+  text-align: center;
+}

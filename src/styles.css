@@ -78,3 +78,7 @@ h1
   background-color: #f4d742 !important;
   height: 100% !important;
 }
+.carousel-inner
+{
+      border-radius: 5px;
+}
