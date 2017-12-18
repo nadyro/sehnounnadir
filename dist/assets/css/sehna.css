@@ -1,0 +1,180 @@
+body
+{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: rgba(28,148,224, 0.2);
+}
+h1
+{
+	color: black;
+}
+#full_content
+{
+	background-color: rgba(28,148,224, 0.8);
+}
+.header_content
+{
+	text-align: center;
+}
+.img_container
+{
+	padding: 10px;
+}
+.img_container img
+{
+	position: relative;
+	width: 100%;
+	border: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.description
+{
+	color: white;
+	text-align: center;
+}
+.degree .bachelor_degree, .skills .skill
+{
+	padding: 0;
+}
+.bachelor_degree img
+{
+	border: none;
+}
+.degree .degree_description
+{
+	color: white;
+	    margin: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    padding: 10px;
+}
+.bloc
+{
+	box-shadow: 1px 1px rgba(255,255,255,0.5);
+    border: solid;
+    border-width: 1px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 1px;
+    padding: 2px;
+    border-color: white;
+}
+.title_details
+{
+	text-align: center;
+	color: white;
+}
+.container_title_details
+{
+	margin: 0;
+}
+.degree
+{
+	margin: 0;
+	padding: 10px;
+}
+.skills
+{
+	margin: 0;
+    padding: 1px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: 1px 1px rgba(255,255,255,0.3);
+}
+.skills .skill
+{
+}
+.skills .skill img
+{
+	border: none;
+}
+.skills .skill_description
+{
+	color: white;
+	padding: 10px;
+	margin: 0;
+}
+.skill_title
+{
+	color: white;
+	text-align: center;
+}
+.overlay
+{
+	border-left: solid;
+    border-width: 1px;
+    border-color: white;
+        background-color: rgba(255,255,255,0.2);
+}
+.overlay_js .skill_description
+{
+	background-color: #E4A228;
+	width: 50%;
+}
+.overlay_node .skill_description
+{
+	background-color: #82CD28;
+	width: 30%;
+}
+.overlay_sql .skill_description
+{
+	background-color: #0081b5;
+	width: 60%;
+}
+.overlay_php .skill_description
+{
+	background-color: #767BB3;
+	width: 60%;
+}
+.overlay_c .skill_description
+{
+	background-color: #f4d742;
+	width: 70%;
+}
+.skill_js
+{
+	background: url('/images/js.png');
+	width: 100%;
+    background-size: 100% 100%;
+}
+.skill_node {
+    background: url('/images/node.png') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.skill_sql {
+    background: url('/images/sql.png') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.skill_php {
+    background: url('/images/php.png') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.skill_c {
+    background: url('/images/C.png') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.degree_turgot
+{
+	background: url('/images/turgot.jpeg') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;	
+}
+.degree_esgi
+{
+	background: url('/images/esgi.png') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;	
+}
+.degree_42
+{
+	background: url('/images/42.png') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;	
+}

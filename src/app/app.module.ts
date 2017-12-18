@@ -18,7 +18,7 @@ import { ExperiencesComponent } from './experiences/experiences.component';
     DiplomasComponent,
     SkillsComponent,
     ContactComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
   ],
   imports: [
     BrowserModule, NgbModule.forRoot()
